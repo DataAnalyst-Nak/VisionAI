@@ -1,0 +1,67 @@
+body {
+  font: 20px Montserrat;
+  line-height: 1.8;
+}
+p {
+  font-size: 16px;
+}
+h3 {
+  font-size: 24px;
+}
+.margin {
+  margin-bottom: 45px;
+}
+.bg-1,
+.thumbnail {
+  color: #005e7b;
+  border: none !important;
+}
+.bg-2 {
+  background-color: #474e5d; /* Dark Blue */
+  color: #ffffff;
+}
+.bg-4 {
+  background-color: #005e7b; /* Black Gray #2f2f2f */
+  color: #ffffff;
+}
+.container-fluid {
+  /* padding-left: 25%; */
+  /* padding-top: 19px; */
+  /* padding-bottom: 14px; */
+  padding-bottom: 10px;
+}
+.navbar {
+  background-color: #005e7b; /* Black Gray  */
+  color: #ffffff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+}  
+canvas {
+  margin: 0 auto;
+}
+.container-footer {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.dropdown-content {
+  display: none; /* hidden by default */
+  position: absolute;
+  background-color: #005e7b;
+  padding: 0;
+  margin: 0;
+  border-radius: 10px;
+  width: max-content; 
+  min-width: 0; 
+  padding-left: 25px; 
+  padding-right: 25px;
+  padding-top: 20px;
+  padding-bottom: 12px;
+}
+.dropdown:hover .dropdown-content {
+  display: block;  
+}
