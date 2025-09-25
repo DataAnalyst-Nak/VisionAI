@@ -1,4 +1,5 @@
 import io
+import os
 import keras
 from PIL import Image
 import tensorflow as tf
@@ -58,5 +59,9 @@ def index():
 
 
 # main function
-if __name__ == '__main__':
-   app.run(debug=True)
+# if __name__ == '__main__':
+#    app.run(debug=True)
+
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 5000))  # use PORT provided by Render
+    app.run(host="0.0.0.0", port=port, debug=True)
